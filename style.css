@@ -91,37 +91,36 @@ footer {
     font-size: 13px;
     border-top: 1px solid rgba(255,255,255,0.05);
 }
-.portal {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 20px;
-  max-width: 700px;
-  margin: 40px auto;
+
+.institucional {
+  max-width: 720px;
+  margin: 80px auto;
+  padding: 0 20px;
+  font-family: Georgia, serif;
 }
 
-.card {
-  background: #0e1a2b;
-  padding: 24px;
-  border-radius: 12px;
-  box-shadow: 0 0 20px rgba(0,0,0,0.3);
+.intro p {
+  font-size: 1.2em;
+  margin-bottom: 60px;
+  line-height: 1.6;
 }
 
-.card h2 {
-  margin-top: 0;
-  color: #f4f6f8;
+.bloco {
+  border-top: 1px solid rgba(255,255,255,0.1);
+  padding: 40px 0;
 }
 
-.card p {
+.bloco h2 {
+  margin-bottom: 8px;
+}
+
+.bloco p {
   color: #cbd5e1;
+  margin-bottom: 12px;
 }
 
-.btn {
-  display: inline-block;
-  margin-top: 12px;
-  padding: 10px 18px;
-  background: #f4f6f8;
-  color: #0e1a2b;
+.bloco a {
   text-decoration: none;
-  border-radius: 6px;
   font-weight: 600;
+  border-bottom: 1px solid currentColor;
 }
