@@ -92,37 +92,12 @@ footer {
     border-top: 1px solid rgba(255,255,255,0.05);
 }
 
-.page {
-  max-width: 900px;
-  margin: 60px auto;
-  padding: 0 20px;
-  display: grid;
-  gap: 32px;
-}
-
-.card {
-  background: #0e1a2b;
-  border-radius: 14px;
-  padding: 32px;
-}
-
-.card h2 {
-  margin-top: 0;
-  color: #f4f6f8;
-}
-
-.card p {
-  color: #cbd5e1;
-  line-height: 1.6;
-}
-
-.button {
-  display: inline-block;
-  margin-top: 16px;
-  padding: 12px 22px;
-  background: #f4f6f8;
-  color: #0e1a2b;
+.card h2 a {
+  color: #c7a46a;
   text-decoration: none;
-  border-radius: 8px;
-  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.card h2 a:hover {
+  text-decoration: underline;
 }
